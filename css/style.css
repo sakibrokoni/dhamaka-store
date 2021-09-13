@@ -2,9 +2,13 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+/*--------- Extra Part----------- */
+span{
+  color: brown;
+}
 .search-field {
   border: none;
-  border-radius: 50px;
+  border-radius:40px;
   padding: 5px;
   outline: none;
 }
@@ -13,24 +17,22 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
-  border-radius: 5px;
+  width: 220px;
+  border-radius:3px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   border-right: none;
 }
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left:30px;
 }
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
   text-align: center;
-  width: 100%;
+  width: 50%;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -43,14 +45,16 @@ body {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
+  /* ------------Extra Part Hover----------- */
+  background-color: coral;
 }
 .product-image {
   width: 150px;
-  height: 150px;
+  height:150px;
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
+  border: 1px solid rgb(128, 68, 0);
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
@@ -67,7 +71,7 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
